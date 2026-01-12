@@ -24,7 +24,7 @@ export const FinalCall: React.FC = () => {
 
           <div className="flex flex-col items-center gap-8">
             <a 
-              href="https://pay.voompcreators.com.br/12682/offer/rFYsy3"
+              href="https://pay.voompcreators.com.br/12682/offer/RcTHEC"
               target="_blank"
               rel="noopener noreferrer"
               className="vera-btn px-14 py-7 rounded-2xl text-xl font-extrabold text-white tracking-tight w-full sm:w-auto text-center shadow-[0_20px_50px_rgba(228,142,33,0.3)]"
