@@ -2,7 +2,7 @@
 import React from 'react';
 
 export const Proposal: React.FC = () => {
-  const modules = [
+  const modulesPreview = [
     "Definindo um Destino",
     "Conhecendo o Desafio",
     "Organizando o Estudo",
@@ -11,7 +11,7 @@ export const Proposal: React.FC = () => {
     "Fontes de Estudo",
     "Mão na Massa",
     "Estratégias de Revisão",
-    "Resolver Questões e Simulados"
+    "Como Resolver Questões e Simulados"
   ];
 
   return (
@@ -19,7 +19,7 @@ export const Proposal: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-black mb-8 leading-tight">
+            <h2 className="text-4xl font-black mb-8 leading-tight text-white">
               O Poder do <br />
               <span className="text-vera-purple">Método PET</span>
             </h2>
@@ -40,9 +40,9 @@ export const Proposal: React.FC = () => {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-vera-accent uppercase tracking-widest mb-6 italic">Estrutura de Módulos:</h3>
+            <h3 className="text-xl font-bold text-vera-accent uppercase tracking-widest mb-6 italic">Módulos da Jornada:</h3>
             <div className="grid grid-cols-1 gap-3">
-              {modules.map((item, idx) => (
+              {modulesPreview.map((item, idx) => (
                 <div key={idx} className="flex items-center gap-4 p-3 hover:bg-vera-purple/10 rounded-xl transition-colors border border-white/5 bg-white/[0.01]">
                   <div className="flex-shrink-0 w-6 h-6 rounded-lg bg-vera-accent/20 flex items-center justify-center text-vera-accent text-xs font-black">
                     {idx + 1}
@@ -50,7 +50,7 @@ export const Proposal: React.FC = () => {
                   <span className="text-sm font-medium text-slate-200">{item}</span>
                 </div>
               ))}
-              <div className="pt-2 text-[10px] text-vera-rose font-bold uppercase tracking-[0.2em]">E mais 4 módulos estratégicos fundamentais...</div>
+              <div className="pt-2 text-[10px] text-vera-rose font-bold uppercase tracking-[0.2em]">E mais módulos estratégicos para o dia da prova...</div>
             </div>
           </div>
         </div>

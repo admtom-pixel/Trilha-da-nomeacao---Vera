@@ -8,7 +8,7 @@ export const FinalCall: React.FC = () => {
       
       <div className="max-w-4xl mx-auto relative z-10 font-sans">
         <div className="glass-card p-10 md:p-16 border-vera-accent/30 bg-vera-navy/40 shadow-2xl">
-          <h2 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
+          <h2 className="text-4xl md:text-6xl font-black mb-6 leading-tight text-white">
             Sua Nomeação <br />
             <span className="gradient-text italic">Começa Agora.</span>
           </h2>
@@ -24,7 +24,7 @@ export const FinalCall: React.FC = () => {
 
           <div className="flex flex-col items-center gap-8">
             <a 
-              href="https://pay.voompcreators.com.br/redirect/27874"
+              href="https://pay.voompcreators.com.br/12682/offer/rFYsy3"
               target="_blank"
               rel="noopener noreferrer"
               className="vera-btn px-14 py-7 rounded-2xl text-xl font-extrabold text-white tracking-tight w-full sm:w-auto text-center shadow-[0_20px_50px_rgba(228,142,33,0.3)]"
@@ -34,15 +34,15 @@ export const FinalCall: React.FC = () => {
             
             <div className="flex flex-wrap justify-center items-center gap-6 opacity-60">
               <div className="flex flex-col items-center">
-                <span className="text-[10px] font-bold tracking-[0.3em] uppercase">7 Dias de Garantia</span>
+                <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-300">7 Dias de Garantia</span>
               </div>
               <div className="w-px h-6 bg-white/10" />
               <div className="flex flex-col items-center">
-                <span className="text-[10px] font-bold tracking-[0.3em] uppercase">Acesso por 12 Meses</span>
+                <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-300">Acesso por 12 Meses</span>
               </div>
               <div className="w-px h-6 bg-white/10" />
               <div className="flex flex-col items-center">
-                <span className="text-[10px] font-bold tracking-[0.3em] uppercase">Certificado 50h</span>
+                <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-300">Certificado 50h</span>
               </div>
             </div>
           </div>
