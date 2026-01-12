@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
             <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-vera-navy/40 backdrop-blur-md border border-vera-accent/30 mb-8 shadow-inner group">
               <span className="w-2 h-2 rounded-full bg-vera-accent shadow-[0_0_12px_rgba(228,142,33,0.8)] group-hover:scale-125 transition-transform" />
               <span className="text-[10px] lg:text-[11px] font-extrabold tracking-[0.2em] lg:tracking-[0.25em] uppercase text-vera-accent">
-                Trilha da Nomeação 2025
+                Trilha da Nomeação
               </span>
             </div>
             

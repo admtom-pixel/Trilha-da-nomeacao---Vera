@@ -5,44 +5,25 @@ export const ForWhom: React.FC = () => {
   return (
     <section className="py-24 px-6 bg-vera-navy/10">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-black text-center mb-16 italic">Este curso é para você?</h2>
+        <h2 className="text-4xl font-black text-center mb-16 italic">A "Trilha da Nomeação" é para quem:</h2>
         
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* SIM */}
+        <div className="grid md:grid-cols-1 max-w-4xl mx-auto">
           <div className="glass-card p-10 border-vera-accent/20 bg-vera-accent/[0.02]">
-            <h3 className="text-2xl font-bold text-vera-accent mb-8 flex items-center gap-2">
-              <span className="text-3xl">✓</span> É para você que:
-            </h3>
-            <ul className="space-y-6">
+            <ul className="grid md:grid-cols-2 gap-x-12 gap-y-6">
               {[
-                "Quer empreender ou já empreende;",
-                "Atua como profissional liberal, gestor ou líder;",
-                "Deseja desenvolver pensamento estratégico;",
-                "Sente que precisa de mais clareza e consistência;",
-                "Busca crescimento com sentido, não apenas resultado imediato."
+                "Quer estudar para concursos públicos e não sabe por onde começar;",
+                "Já estuda para concursos públicos, mas não consegue atingir a nota de corte;",
+                "Já estudou há muitos anos e não sabe como retomar o ritmo adequado;",
+                "Precisa identificar pontos fracos para aumentar a pontuação objetiva;",
+                "Não consegue organizar uma rotina adequada e eficiente de estudo;",
+                "Senta para estudar e não sabe quais temas são mais relevantes;",
+                "Quer aprender técnicas de revisão cientificamente comprovadas;",
+                "Quer descobrir como ganhar posições na reta final do certame."
               ].map((text, idx) => (
-                <li key={idx} className="flex gap-4 text-slate-300">
-                  <div className="w-1.5 h-1.5 rounded-full bg-vera-accent mt-2 flex-shrink-0" />
-                  {text}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* NÃO */}
-          <div className="glass-card p-10 border-vera-rose/20 bg-vera-rose/[0.02]">
-            <h3 className="text-2xl font-bold text-vera-rose mb-8 flex items-center gap-2">
-              <span className="text-3xl">✕</span> NÃO é para quem:
-            </h3>
-            <ul className="space-y-6">
-              {[
-                "Procura fórmulas rápidas;",
-                "Busca promessas milagrosas;",
-                "Quer apenas técnicas sem reflexão;",
-                "Não está disposto a revisar a própria forma de pensar."
-              ].map((text, idx) => (
-                <li key={idx} className="flex gap-4 text-slate-300">
-                  <div className="w-1.5 h-1.5 rounded-full bg-vera-rose mt-2 flex-shrink-0" />
+                <li key={idx} className="flex gap-4 text-slate-300 text-sm leading-relaxed">
+                  <div className="w-5 h-5 rounded-full bg-vera-accent/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-vera-accent text-[10px] font-black">✓</span>
+                  </div>
                   {text}
                 </li>
               ))}

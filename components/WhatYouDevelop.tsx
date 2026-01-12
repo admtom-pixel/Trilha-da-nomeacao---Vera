@@ -10,18 +10,18 @@ export const WhatYouDevelop: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              title: "Análise CEBRASPE",
-              desc: "Estratégia completa para uma das bancas mais desafiadoras do país.",
+              title: "Perfis de Bancas",
+              desc: "Análise profunda do perfil das bancas FGV, CEBRASPE e VUNESP.",
               icon: "🎯"
             },
             {
-              title: "Decorando a Lei Seca",
-              desc: "Desconto exclusivo na plataforma para potencializar sua memorização.",
+              title: "Jurisprudência Descomplicada",
+              desc: "Descontos exclusivos na plataforma para acelerar seu entendimento jurídico.",
               icon: "⚖️"
             },
             {
-              title: "Controle de Ansiedade",
-              desc: "Aula com médica psiquiatra para manter o foco e a saúde mental.",
+              title: "Decorando a Lei Seca",
+              desc: "Acesso com condições especiais à plataforma líder em memorização legislativa.",
               icon: "🧠"
             }
           ].map((bonus, idx) => (
