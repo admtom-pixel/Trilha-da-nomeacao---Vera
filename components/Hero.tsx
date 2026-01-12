@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Logo } from './Logo';
 
@@ -56,7 +55,7 @@ export const Hero: React.FC = () => {
 
           {/* Lado Direito: Professor + Selo */}
           <div className="lg:col-span-5 xl:col-span-5 relative flex justify-center lg:justify-end self-end h-full">
-            {/* SELO DE DESTAQUE: Certificado Incluso 50 horas */}
+            {/* SELO DE DESTAQUE: Certificado Incluso 20 horas */}
             <div className="absolute bottom-[22%] right-4 lg:-right-16 z-30 animate-bounce-slow">
               <div className="glass-card p-4 md:p-5 flex items-center gap-4 border-vera-accent/40 shadow-[0_20px_40px_rgba(0,0,0,0.5)] bg-vera-navy/80 border-r-4 border-r-vera-accent text-right flex-row-reverse">
                 <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-vera-accent to-orange-600 flex items-center justify-center shadow-lg">
@@ -66,7 +65,7 @@ export const Hero: React.FC = () => {
                 </div>
                 <div>
                   <span className="block text-[10px] font-black uppercase tracking-widest text-vera-accent leading-none mb-1">Certificado Incluso</span>
-                  <span className="block text-xl md:text-2xl font-black text-white leading-none">50 Horas</span>
+                  <span className="block text-xl md:text-2xl font-black text-white leading-none">20 Horas</span>
                 </div>
               </div>
             </div>

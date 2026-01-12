@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const FinalCall: React.FC = () => {
@@ -42,7 +41,7 @@ export const FinalCall: React.FC = () => {
               </div>
               <div className="w-px h-6 bg-white/10" />
               <div className="flex flex-col items-center">
-                <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-300">Certificado 50h</span>
+                <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-slate-300">Certificado 20h</span>
               </div>
             </div>
           </div>

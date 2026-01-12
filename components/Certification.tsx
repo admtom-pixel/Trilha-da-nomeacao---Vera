@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const Certification: React.FC = () => {
@@ -18,7 +17,7 @@ export const Certification: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <span className="text-sm font-black text-vera-accent uppercase tracking-tighter">50 Horas Certificadas</span>
+              <span className="text-sm font-black text-vera-accent uppercase tracking-tighter">20 Horas Certificadas</span>
             </div>
           </div>
 
@@ -42,13 +41,13 @@ export const Certification: React.FC = () => {
           <div className="flex flex-col items-center gap-6 mb-12">
             <div className="h-1.5 w-24 bg-gradient-to-r from-transparent via-vera-accent to-transparent rounded-full shadow-lg" />
             <p className="text-xl md:text-2xl text-slate-300 font-light leading-relaxed max-w-3xl mx-auto">
-              Ao concluir esta jornada estratégica, você receberá o certificado oficial emitido pela <strong className="text-white font-bold">Vêra Educação</strong>, validando sua participação na <strong className="text-vera-accent font-black">Trilha da Nomeação com 50 horas</strong> de carga horária.
+              Ao concluir esta jornada estratégica, você receberá o certificado oficial emitido pela <strong className="text-white font-bold">Vêra Educação</strong>, validando sua participação na <strong className="text-vera-accent font-black">Trilha da Nomeação com 20 horas</strong> de carga horária.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto pt-12 border-t border-white/10">
             <div className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-white/[0.02] border border-white/5">
-              <span className="text-vera-accent font-black text-3xl">50h</span>
+              <span className="text-vera-accent font-black text-3xl">20h</span>
               <span className="text-[11px] uppercase tracking-[0.25em] text-slate-500 font-extrabold">Carga Horária</span>
             </div>
             <div className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-white/[0.02] border border-white/5">
